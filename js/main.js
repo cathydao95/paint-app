@@ -30,7 +30,7 @@ window.addEventListener("load", () => {
     // WHERE TO DRAW TO? CLIENT X AND CLIENT Y IS THE LOCATION OF MOUSE
     ctx.lineTo(e.clientX, e.clientY);
     ctx.stroke();
-    ctx.beingPath();
+    ctx.beginPath();
     ctx.moveTo(e.clientX, e.clientY);
   }
   //   Event Listeners
